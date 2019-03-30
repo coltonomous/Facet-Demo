@@ -68,7 +68,9 @@ class CreateCustomerForm extends Component {
         return(
             <View>
                 <Card
-                    title={"Please enter some customer information to display. Fields marked with * are required. Note: customers are notified via text, so the phone number provided should belong to a mobile device."}
+                    title={"Please enter some customer information to display. \
+                    Fields marked with * are required. Note: customers are notified via text, so the phone number provided should \
+                    belong to a mobile device."}
                     containerStyle={CommonStyles.cardStyles.cardContainer}
                 >
                     <TextInput style = {CommonStyles.formStyles.input} 

@@ -142,7 +142,7 @@ class ProfileForm extends Component {
                         onSubmitEditing={() => this.vendorTypeInput.focus()} 
                         autoCorrect={false}  
                         returnKeyType="next" 
-                        placeholder='Vendor Zip Code' 
+                        placeholder='Vendor Location' 
                         placeholderTextColor='rgba(225,225,225,0.7)'/>
                 
                     <TextInput style = {CommonStyles.formStyles.input}   
